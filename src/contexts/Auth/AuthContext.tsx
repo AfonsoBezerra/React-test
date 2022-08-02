@@ -65,7 +65,6 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   const signIn: iAuthContext['signIn'] = async (credentials, redirect) => {
     try {
       setLoading(true);
-
       return fetcher
         .post(`${import.meta.env.VITE_BASE_URL}/login/adm`, {
           email: credentials.email,
@@ -73,17 +72,19 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
         })
         .then(async (res: iUserToken) => {
           await handleUser(res);
+          setLoading(false);
           if (redirect) navigate(redirect);
           return res;
         })
         .catch((res) => {
+          setLoading(false);
           enqueueSnackbar(t('alert.errorCredentials'), {
             variant: 'error',
           });
           throw res;
         });
     } finally {
-      setLoading(false);
+      // Do Something
     }
   };
   const logout: iAuthContext['logout'] = async () => {
