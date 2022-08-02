@@ -73,7 +73,7 @@ Start server:
   $  npm run dev
 ```
 
-Server started on “PORT 5173” of your browser, access [http://localhost:5173”](http://localhost:5173)
+Server started on “PORT 5173” of your browser, access [http://localhost:5173](http://localhost:5173)
 
 # <h1 id="technologies">⚒️ Technologies</h1>
 
