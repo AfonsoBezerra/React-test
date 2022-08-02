@@ -18,6 +18,10 @@ export const ContainerCSS = styled.div`
     position: relative;
     overflow: hidden;
     flex: 0 0 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   @media (min-width: 600px) {
