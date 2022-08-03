@@ -6,7 +6,7 @@
 
   <img alt="Repository Size" src="https://img.shields.io/github/repo-size/AfonsoBezerra/React-test?color=34A853&label=repository%20size&style=for-the-badge">
 
-  <a href="https://github.com/gbrogio">
+  <a href="https://github.com/AfonsoBezerra">
     <img alt="Made by AfonsoBezerra" src="https://img.shields.io/badge/made%20by-AfonsoBezerra-4285F4?style=for-the-badge">
   </a>
   <img alt="GitHub - last commit" src="https://img.shields.io/github/last-commit/AfonsoBezerra/React-test?color=4285F4&label=last%20commit&style=for-the-badge">
@@ -89,7 +89,7 @@ Where Styled Components was the technology used to style the page (CSS in JavaSc
 
 <h1 id="author">👤 Contact</h1>
 
-<a href="https://github.com/afonsobezerra">
+<a href="https://github.com/AfonsoBezerra">
  <img style="border-radius: 50%" src="https://github.com/afonsobezerra.png" width="100" alt=""/>
  <br />
  <sub><b>Afonso Bezerra</b></sub></a> <a href="https://afonsobezerra.com/" title="Afonso Bezerra">🚀</a>
